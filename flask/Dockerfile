@@ -13,7 +13,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 # Copy the current directory contents into the container
 COPY . .
 
-# Make port 8000 available to the world outside this container
+# Make port 8000 available
 EXPOSE 8000
 
 # Run gunicorn when the container launches
